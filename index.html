@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h2>Multiplicating Using Function</h2>
+        <p>This function multiplies two numbers with a default value for the second parameter.</p>
+        <p id="demo"></p>
+        <script>
+            function multiply(x, y) {
+                if (y === undefined) {
+                    y = 3; // Default value for y
+                }
+                return x * y;
+            }
+            document.getElementById("demo").innerHTML = multiply(7);
+        </script>
+    </body>
+</html>
